@@ -17,7 +17,7 @@ void add(Lista** set, int elem){
 }
 
 bool isEmpty(Lista* set){
-    return (set != NULL);
+    return (set == NULL);
 }
 
 int len(Lista* set) { 
